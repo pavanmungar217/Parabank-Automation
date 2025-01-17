@@ -1,0 +1,5 @@
+api:
+  transactions:
+    search:
+      amount: /parabank/services_proxy/bank/accounts/{id}/transactions/amount/{value}
+  

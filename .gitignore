@@ -1,0 +1,15 @@
+# Node.js modules
+node_modules/
+
+# Test results
+test-results/
+
+# Allure report
+allure-report/
+allure-results/
+
+# Playwright report
+playwright-report/
+
+# Package lock file
+package-lock.json 
