@@ -24,7 +24,7 @@ pipeline {
 
         stage('Run Playwright Tests') {
             steps {
-                bat "et BROWSER=${params.BROWSER} && npx playwright test --reporter=html --project=${BROWSER}"
+                bat "set BROWSER=${params.BROWSER} && npx playwright test --reporter=html --project=${BROWSER}"
             }
         }
 
